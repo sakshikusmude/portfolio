@@ -9,6 +9,7 @@ import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Achievements from "./pages/Achievements";
 import Contact from "./pages/Contact";
+import Gallery from "./pages/Gallery";
 import "./styles.css";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </Router>
   );
